@@ -1,5 +1,6 @@
 # PedestrianDetection
 
+
 Authors: Stefano Caruso 
 
 
@@ -25,16 +26,20 @@ The impact would not only make the roads safer, it will calculate the best route
 
 
 
+
 Modeling
+
 
 Build a CNN model to train on the images to address our business problem of pedestrian detection.
 The classes are the target person / person like. After numerous hyperparameter tuning, A valuable final model will have high accuracy score and reduced error. A CNN model is good for image classificatoin because the tensorflow can train on 3 channels values well (colors pixels rbg, 3). Also can detect latent features whith CNN.
 
 Results
 We believe that 72% accuracy score on unseen data was satisfying b/c of the testing data size of only 235 images, potentially once we increase the testing size we will achieve our 98% score that we obtained on the training data.
+
 If this model were to be put to use, we believe we would fulfill the state approval.
 
 Conclusion
+
 
 Training a model on person / person will have a better outcome then training on just pedestrian detection. Applying this strategy will upgrade the autonomous driving applications performance.
 
@@ -58,3 +63,6 @@ Repository Structure
 ├── images <- from the dataset. 
 ├── .gitignore <- contains the data images. 
 ├── README.md <- This file. └── Pedestrian Detection summary
+
+
+
