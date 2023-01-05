@@ -51,4 +51,10 @@ Testing data Accuracy - 72%
 One limitation
 data size and diversity
 
-Repository Structure ├── Data <- Collection of provided data. ├── development-notebooks <- Narrative documentation of analysis in Jupyter notebook. ├── images <- Images used in PDF and README. ├── .gitignore <- Rules to ignore by Github. ├── README.md <- This file. └── green-housing-dev-analysis.ipynb <- Jupyter Notebook containing exploration and analysis of our data.
+Repository Structure 
+├── Create Enviroment for imports <- Environment folder
+├── Data <- inside gitignore. 
+├── file on front page  <- Final Notebook.ipynb. 
+├── images <- from the dataset. 
+├── .gitignore <- contains the data images. 
+├── README.md <- This file. └── Pedestrian Detection summary
