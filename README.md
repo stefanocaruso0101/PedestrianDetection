@@ -35,6 +35,19 @@ If this model were to be put to use, we believe we would fulfill the state appro
 
 Conclusion
 
+Training a model on person / person will have a better outcome then training on just pedestrian detection. Applying this strategy will upgrade the autonomous driving applications performance.
+
+The trained modeled performed well on the testing data, of the 230 images in the test data our model was able to correctly detect person / person like 162 times, this is good but I will continue tuning new models and increase the accuaracy rate.
+
+A new technique to look into is combining all the splits together which is 1,339 images and taking a larger split on the testing data of 375 images, I believe this will be significent positive impact.
+
+The next models generated will have more crative regulation systems built into them as well as larger epochs and different batch sizes to obtain higher reliability to assist with safety and government approval.
+
+PARAMS - 660,000 +
+
+Testing data Accuracy - 72%
+
 One limitation
+data size and diversity
 
 Repository Structure ├── Data <- Collection of provided data. ├── development-notebooks <- Narrative documentation of analysis in Jupyter notebook. ├── images <- Images used in PDF and README. ├── .gitignore <- Rules to ignore by Github. ├── README.md <- This file. └── green-housing-dev-analysis.ipynb <- Jupyter Notebook containing exploration and analysis of our data.
