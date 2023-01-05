@@ -12,6 +12,7 @@ Pedestrian detection is a small subset to the much larger field of object detect
 Datasets trained on the basic person detection problem contains only images labelled with person objects.
 I obtained a dataset for addressing the false positives that occur during the person detection process. Some objects have very similar features to those of a person. If a model is trained using a dataset containing only persons, it leads to several false positives since it cannot differentiate such objects from that of a person. This dataset includes person and person-like objects. Person-like objects that we introduce in our dataset are statues, mannequins, scarecrows, and robots.
 
+![image](https://user-images.githubusercontent.com/118636093/210844071-4b02a6e3-156b-460b-ba09-012fb24a0775.png)
 
 
 Business Understanding
