@@ -57,12 +57,15 @@ One limitation
 data size and diversity
 
 Repository Structure 
+'''
 ├── Create Enviroment for imports <- Environment folder
 ├── Data <- inside gitignore. 
 ├── file on front page  <- Final Notebook.ipynb. 
 ├── images <- from the dataset. 
 ├── .gitignore <- contains the data images. 
 ├── README.md <- This file. └── Pedestrian Detection summary
+├── Presentation <- Motional Inc. (1).pdf
+'''
 
 
 
